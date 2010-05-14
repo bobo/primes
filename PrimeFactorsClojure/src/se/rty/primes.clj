@@ -11,5 +11,5 @@
   primes))
 
 (defn primes [num]
-  (nils num 2 (list)))
+  (find-primes num 2 (list)))
 
