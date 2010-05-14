@@ -1,5 +1,5 @@
 (ns se.rty.primes
-  (:gen-class))
+  )
 
 (defn find-primes [num divisor primes]
   (if (> num 1)
