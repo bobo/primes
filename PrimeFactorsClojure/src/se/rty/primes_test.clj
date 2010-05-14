@@ -1,8 +1,5 @@
 
-(ns se.rty.primes
-  (:require clojure.test)
-  ;(:import )
-  )
+(ns se.rty.primes)
 (use 'clojure.test)
 
 (deftest primes-test
@@ -25,7 +22,5 @@
     10000 (list 2 2 2 2 5 5 5 5),
     100000 (list 2 2 2 2 2 5 5 5 5 5),
     677329 (list 823 823)))
-
-
 
 (run-tests)
